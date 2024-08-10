@@ -90,12 +90,13 @@
 
 
                 <x-navbar.item>
+                 
                     <x-navbar.link
                         label="{{ __('Documents') }}"
-                        href="dashboard.user.openai.documents.all"
                         active-condition="{{ activeRoute('dashboard.user.openai.documents.*') }}"
                         icon="tabler-archive"
                     >
+                        <!-- href="dashboard.user.openai.documents.all" -->
                         {{-- Submenu --}}
                         @if ($setting->feature_ai_advanced_editor)
                             <x-navbar.item>
