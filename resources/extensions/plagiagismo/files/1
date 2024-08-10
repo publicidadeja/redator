@@ -1,0 +1,4 @@
+<a class="dropdown-item {{ activeRoute('dashboard.admin.settings.plagiarism') }}"
+    href="{{ route('dashboard.admin.settings.plagiarism') }}">
+    {{ __('Plagiarism API') }}
+</a>
